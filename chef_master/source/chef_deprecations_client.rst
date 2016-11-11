@@ -3,7 +3,14 @@ Chef Deprecation Warnings
 =====================================================
 `[edit on GitHub] <https://github.com/chef/chef-web-docs/blob/master/chef_master/source/chef_deprecations_client.rst>`__
 
-When we wish to remove a feature or an API in Chef, we try to first mark it with a deprecation warning that contains a link to a description of the change and how to fix it. For example:
+.. tag client_deprecations
+
+When we wish to remove a feature or an API in Chef, we try to first mark it with a deprecation warning that contains a link to a description of the change and how to fix it.
+
+.. end_tag
+
+Example
+=====================================================
 
 .. code-block:: ruby
 
@@ -21,7 +28,7 @@ To test your code for deprecations, you can put Test Kitchen in a mode where any
    provisioner:
      deprecations_as_errors: true
 
-and then run Test Kitchen as usual. Test Kitchen will fail if any deprecations errors are issued. This feature was added in Test Kitchen 1.13.
+and then run Test Kitchen as usual. Test Kitchen will fail if any deprecation errors are issued. This feature was added in Test Kitchen 1.13.
 
 All Deprecations
 =====================================================
@@ -78,4 +85,3 @@ All Deprecations
     - Many internal APIs have been improved.
     - various
     - varies
-
