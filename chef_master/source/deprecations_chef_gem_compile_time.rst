@@ -6,7 +6,7 @@ Deprecation Warning: Chef Gem Compile Time (CHEF-3)
 .. tag deprecations_chef_gem_compile_time
 
 Originally, the :doc:`chef gem </resource_chef_gem>` resource always ran during the `compile` phase (see :ref:`"The chef-client Run" <the-chef-client-run>` for further details).
-It is now possible to control which phase the resource is run in. Calling ``chef_gem`` with out specifying the phase is now deprecated.
+It is now possible to control which phase the resource is run in. Calling ``chef_gem`` without specifying the phase is now deprecated.
 
 .. end_tag
 
