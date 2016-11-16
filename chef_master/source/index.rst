@@ -471,7 +471,17 @@ Addenda
    delivery_server_tuning
    delivery_truck
    delivery_users_and_roles
+   deprecations_attributes
+   deprecations_chef_gem_compile_time
+   deprecations_chef_rest
+   deprecations_custom_resource_cleanups
+   deprecations_easy_install
+   deprecations_exit_code
+   deprecations_internal_api
    deprecations_json_auto_inflate
+   deprecations_resource_cloning
+   deprecations_supports_property
+   deprecations_verify_file
    dsl_custom_resource
    dsl_delivery
    job_dispatch
