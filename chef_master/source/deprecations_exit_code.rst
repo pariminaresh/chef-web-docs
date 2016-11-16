@@ -11,7 +11,7 @@ Starting in Chef 12.11, there are now well defined exit codes that the Chef clie
 
 .. end_tag
 
-This deprecation was added in Chef 12.11, and will be removed permanently in Chef 13. For further information on the list of defined error codes,
+This deprecation was added in Chef 12.11. In Chef 13, only the extended set of exit codes will be supported. For further information on the list of defined error codes,
 please see `RFC 62, which defines them <https://github.com/chef/chef-rfc/blob/master/rfc062-exit-status.md>`__.
 
 Mitigation

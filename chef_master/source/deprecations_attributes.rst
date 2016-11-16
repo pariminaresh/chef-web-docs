@@ -52,7 +52,7 @@ Example
 Mitigation
 -----------
 
-Choose the appropriate :doc:`precedence level</attributes#attribute-precedence>`, then replace ``set`` with that precedence level.
+Choose the appropriate :ref:`precedence level <attribute-precedence>`, then replace ``set`` with that precedence level.
 
 .. code-block:: ruby
 

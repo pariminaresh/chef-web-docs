@@ -9,7 +9,7 @@ Internally, the ``Chef::REST`` class attempts to guess which Chef class a JSON d
 
 .. end_tag
 
-This deprecation was added in Chef 12.7.2, and will be removed permanently in Chef 13.
+This deprecation was added in Chef 12.7.2, and JSON auto inflation will be removed permanently in Chef 13.
 
 Example
 =====================================================

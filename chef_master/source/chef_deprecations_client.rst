@@ -28,7 +28,7 @@ To test your code for deprecations, you can put Test Kitchen in a mode where any
    provisioner:
      deprecations_as_errors: true
 
-and then run Test Kitchen as usual. Test Kitchen will fail if any deprecations errors are issued.
+and then run Test Kitchen as usual. Test Kitchen will fail if any deprecations errors are issued. This feature was added in Test Kitchen 1.13.
 
 All Deprecations
 =====================================================
