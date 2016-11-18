@@ -1,5 +1,5 @@
 =======================================================
-Deprecation Warning: Verify File Expansion (CHEF-7)
+Deprecation: Verify File Expansion (CHEF-7)
 =======================================================
 `[edit on GitHub] <https://github.com/chef/chef-web-docs/blob/master/chef_master/source/deprecations_verify_file.rst>`__
 
@@ -20,7 +20,7 @@ Example
     verify 'nginx -t -c %{file}'
   end
 
-Mitigation
+Remediation
 ==============
 
 Replace ``%{file}`` with ``%{path}``:

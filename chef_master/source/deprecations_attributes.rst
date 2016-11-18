@@ -1,5 +1,5 @@
 =====================================================
-Deprecation Warning: Attributes (CHEF-4)
+Deprecation: Some Attributes Methods (CHEF-4)
 =====================================================
 `[edit on GitHub] <https://github.com/chef/chef-web-docs/blob/master/chef_master/source/deprecations_attributes.rst>`__
 
@@ -16,6 +16,8 @@ Method Access
 
 Setting and accessing node attributes has been standardised on "bracket" syntax. The older "method" syntax is deprecated and will be removed in Chef 13.
 
+Removal: Chef 13
+
 Example
 --------
 
@@ -26,7 +28,7 @@ Both lines in the example will cause separate deprecation warnings.
   node.chef.server = "https://my.chef.server"
   chef_server = node.chef.server
 
-Mitigation
+Remediation
 -------------
 
 Convert method syntax to bracket syntax by using brackets to denote attribute names. The code below is identical in function to the example above:
@@ -41,6 +43,8 @@ Set and Set_Unless
 
 Setting node attributes with ``set`` or ``set_unless`` has been deprecated in favor of explicitly setting the precendence level. These methods will be removed in Chef 14.
 
+Removal: Chef 14
+
 Example
 ---------
 
@@ -49,7 +53,7 @@ Example
   node.set['chef']['server'] =  "https://my.chef.server"
   node.set_unless['chef']['server'] =  "https://my.chef.server"
 
-Mitigation
+Remediation
 -----------
 
 Choose the appropriate :ref:`precedence level <attribute-precedence>`, then replace ``set`` with that precedence level.

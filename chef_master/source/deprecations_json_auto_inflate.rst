@@ -1,5 +1,5 @@
 =====================================================
-Deprecation Warning: JSON Auto Inflate (CHEF-1)
+Deprecation: JSON Auto Inflate (CHEF-1)
 =====================================================
 `[edit on GitHub] <https://github.com/chef/chef-web-docs/blob/master/chef_master/source/deprecations_json_auto_inflate.rst>`__
 
@@ -9,7 +9,7 @@ Internally, the ``Chef::REST`` class attempts to guess which Chef class a JSON d
 
 .. end_tag
 
-This deprecation was added in Chef 12.7.2, and JSON auto inflation will be removed permanently in Chef 13.
+This deprecation warning was added in Chef 12.7.2, and JSON auto inflation will be removed permanently in Chef 13.
 
 Example
 =====================================================
@@ -23,7 +23,7 @@ When loading an environment from the Chef Server, you might previously have writ
 
 and received a ``Chef::Environment`` object back.
 
-To Fix
+Remediation
 =====================================================
 
 You now need to explicitly create a new object of the desired type.
